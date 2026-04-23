@@ -1,6 +1,10 @@
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * to optimize memory side, use swtich case instead of map
+ */
+
 class RomanToInteger {
     static public int romanToInt(String s) {
         int sum = 0;
